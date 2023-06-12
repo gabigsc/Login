@@ -9,55 +9,6 @@
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
 
-        <!-- Endereço -->
-        <div class="mt-4">
-            <x-input-label for="endereco" :value="__('Endereço')" />
-            <x-text-input id="endereco" class="block mt-1 w-full" type="text" name="endereco" :value="old('endereco')" required autocomplete="endereco" />
-            <x-input-error :messages="$errors->get('endereco')" class="mt-2" />
-        </div>
-
-        <!-- Bairro -->
-        <div class="mt-4">
-            <x-input-label for="bairro" :value="__('Bairro')" />
-            <x-text-input id="bairro" class="block mt-1 w-full" type="text" name="bairro" :value="old('bairro')" required autocomplete="bairro" />
-            <x-input-error :messages="$errors->get('bairro')" class="mt-2" />
-        </div>
-
-         <!-- CEP -->
-         <div class="mt-4">
-            <x-input-label for="cep" :value="__('CEP')" />
-            <x-text-input id="cep" class="block mt-1 w-full" type="number" name="cep" :value="old('cep')" required autocomplete="cep" />
-            <x-input-error :messages="$errors->get('cep')" class="mt-2" />
-        </div>
-
-         <!-- Cidade -->
-         <div class="mt-4">
-            <x-input-label for="cidade" :value="__('Cidade')" />
-            <x-text-input id="cidade" class="block mt-1 w-full" type="text" name="cidade" :value="old('cidade')" required autocomplete="cidade" />
-            <x-input-error :messages="$errors->get('cidade')" class="mt-2" />
-        </div>
-
-         <!-- Estado -->
-         <div class="mt-4">
-            <x-input-label for="estado" :value="__('Estado')" />
-            <x-text-input id="estado" class="block mt-1 w-full" type="text" name="estado" :value="old('estado')" required autocomplete="estado" />
-            <x-input-error :messages="$errors->get('estado')" class="mt-2" />
-        </div>
-
-         <!-- Telefone -->
-         <div class="mt-4">
-            <x-input-label for="teleone" :value="__('Telefone')" />
-            <x-text-input id="telefone" class="block mt-1 w-full" type="number" name="telefone" :value="old('telefone')" required autocomplete="telefone" />
-            <x-input-error :messages="$errors->get('telefone')" class="mt-2" />
-        </div>
-
-         <!-- Celular -->
-         <div class="mt-4">
-            <x-input-label for="celular" :value="__('Celular')" />
-            <x-text-input id="celular" class="block mt-1 w-full" type="number" name="celular" :value="old('celular')" required autocomplete="celular" />
-            <x-input-error :messages="$errors->get('celular')" class="mt-2" />
-        </div>
-
         <!-- Email Address -->
         <div class="mt-4">
             <x-input-label for="email" :value="__('Email')" />
